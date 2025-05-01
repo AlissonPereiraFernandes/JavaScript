@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+
+
+    <script>
+
+        let nomes = ["João", "Daniel", "Carlos", "Jáder"] //sintaxe literal
+        //let nomes = new Array("João", "Daniel", "Carlos")
+
+        // Adicionando nome na lista
+        let nome = prompt("Digite seu nome: ")
+
+        nomes[nomes.length] = nome
+
+        for(let i=0; i < nomes.length; i++){
+            document.write("nome: " + nomes[i] + "<br>")
+        }
+
+        document.writeln("A lista de nomes possui " +nomes.length+ " elementos")
+    </script>
+</body>
+</html>
